@@ -1,0 +1,53 @@
+
+			html, body {
+				padding: 0;
+				margin: 0;
+			}
+			body {
+				height: 400px;
+				background-color: #e6e6e6;
+			}
+			body * {
+				font-family: Arial, Geneva, SunSans-Regular, sans-serif;
+				font-size: 14px;
+				color: #333;
+				line-height: 22px;
+			}
+			#wrapper_map {
+				background-color: #fff;
+				width: 800px;
+				height: 610px;
+    			display: block;
+    			margin-left: auto;
+    			margin-right: auto;
+    			overflow: hidden;
+    			white-space: nowrap;
+			}
+			#wrapper img {
+				display: block;
+				float: left;
+			}
+			#images, #thumbs {
+				height: auto;
+				overflow: hidden;
+			}
+			#images {
+				width: 800px;
+				margin: 0px 0px 0px 100px;
+			}
+			#thumbs {
+				width: 800px;
+				
+			}
+			#thumbs img {
+				border: 3px solid;
+				border-color: #fff;
+				margin: 0 10px 0 10px;
+				cursor: pointer;
+			}
+			#thumbs img.selected, #thumbs img:hover {
+				border: 3px solid;
+				border-color: #341913;
+			}
+
+		
